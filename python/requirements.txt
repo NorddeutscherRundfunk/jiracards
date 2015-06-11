@@ -1,0 +1,13 @@
+Flask==0.10.1
+Jinja2==2.7.3
+MarkupSafe==0.23
+Werkzeug==0.10.4
+itsdangerous==0.24
+reportlab==3.2.0
+requests==2.7.0
+coverage==3.7.1
+pep8==1.6.2
+nose2==0.5.0
+pylint==1.4.4
+jira==1.0.3
+gunicorn==19.4.5

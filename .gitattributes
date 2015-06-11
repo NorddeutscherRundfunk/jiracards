@@ -1,0 +1,20 @@
+* text=auto !eol
+/build.sh -text
+conf/live.conf -text
+conf/logging.conf -text
+/jiracards.service -text
+python/.coveragerc -text
+python/jiracards/__init__.py -text
+python/jiracards/jira_adapter.py -text
+python/jiracards/jiracards.py -text
+python/jiracards/print.py -text
+python/jiracards/test/__init__.py -text
+python/jiracards/test/test_jiracards.py -text
+python/main.py -text
+python/pylint.cfg -text
+python/requirements.txt -text
+python/serve.py -text
+python/templates/index.html -text
+python/templates/printed.html -text
+python/unittest.cfg -text
+/serve.sh -text

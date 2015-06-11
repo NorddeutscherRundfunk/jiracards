@@ -1,0 +1,14 @@
+[Unit]
+Description=Webapp to print cards from JIRA
+ConditionPathExists=/data/jiracards
+Wants=network.target
+After=network.target
+
+[Service]
+ExecStart=/data/jiracards/serve.sh
+StandardOutput=null
+User=osc
+Group=osc
+
+[Install]
+WantedBy=multi-user.target

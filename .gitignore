@@ -1,0 +1,9 @@
+/coverage.xml
+/.coverage
+/nose2-junit.xml
+/jiracards.iml
+/log
+/htmlcov
+/out
+/pdfs
+/.idea

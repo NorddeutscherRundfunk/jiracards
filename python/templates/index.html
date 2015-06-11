@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>Karte drucken</h1>
+        <p>{{ request.url }}issue_key[/issue_type]</p>
+        <h2>Beispiele</h2>
+        <ul>
+            <li><a href="{{ request.url }}XXX-1337">{{ request.url }}XXX-1337</a></li>
+            <li><a href="{{ request.url }}XXX-1337/bug">{{ request.url }}XXX-1337/bug</a></li>
+        </ul>
+    </body>
+</html>
